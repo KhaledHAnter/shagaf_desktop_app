@@ -37,6 +37,7 @@ class CustomTextField extends StatelessWidget {
         enabledBorder: buildBorder(),
         focusedBorder: buildBorder(),
         suffixIcon: suffixIcon,
+        suffixIconColor: const Color(0XFF4D4D4D),
       ),
     );
   }
